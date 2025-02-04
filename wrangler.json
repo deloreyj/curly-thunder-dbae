@@ -1,0 +1,30 @@
+{
+  "name": "curly-thunder-dbae",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sparkling-block-a103-d1",
+      "database_id": "40c77d60-514d-40bb-9c1b-98749f047b25"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "curly-thunder-dbae-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
