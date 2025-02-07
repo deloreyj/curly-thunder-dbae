@@ -1,3 +1,5 @@
+[![Deploy to Workers](https://deploy.workers.cloudflare.com/button)](https://localhost:7445/?to=/:account/workers-and-pages/create/deploy-to-workers&repository=https%3A%2F%2Fgithub.com%2Fdeloreyj%2Fcurly-thunder-dbae)
+
 # SaaS Admin Template
 
 ![SaaS Admin Template](https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/52b88668-0144-489c-dd02-fe620270ba00/public)
