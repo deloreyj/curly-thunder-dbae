@@ -59,5 +59,19 @@
       "binding": "MY_BUCKET",
       "bucket_name": "R2_BUCKET_NAME"
     }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "class_name": "Chat",
+        "name": "Chat"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "new_sqlite_classes": ["Chat"],
+      "tag": "v1"
+    }
   ]
 }
