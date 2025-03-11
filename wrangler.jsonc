@@ -1,4 +1,5 @@
 {
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "curly-thunder-dbae",
   "main": "./dist/index.js",
   "assets": {
@@ -40,19 +41,19 @@
       "class_name": "CustomerWorkflow"
     }
   ],
-  // "queues": {
-  //   "producers": [
-  //     {
-  //       "queue": "MY-QUEUE-NAME",
-  //       "binding": "MY_QUEUE"
-  //     }
-  //   ],
-  //   "consumers": [
-  //     {
-  //       "queue": "MY-QUEUE-NAME"
-  //     }
-  //   ]
-  // },
+  "queues": {
+    "producers": [
+      {
+        "queue": "test-queue",
+        "binding": "MY_QUEUE"
+      }
+    ],
+    "consumers": [
+      {
+        "queue": "test-queue"
+      }
+    ]
+  },
   "r2_buckets": [
     {
       "binding": "MY_BUCKET",
