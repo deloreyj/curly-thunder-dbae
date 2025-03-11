@@ -20,6 +20,19 @@
       "database_id": "40c77d60-514d-40bb-9c1b-98749f047b25"
     }
   ],
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "<YOUR_HYPERDRIVE_ID>",
+      "localConnectionString": "<ENTER_LOCAL_CONNECTION_STRING_FOR_LOCAL_DEVELOPMENT>"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "KV_CACHE",
+      "id": "cf8aa41453dc4be09ff86530895773e1"
+    }
+  ],
   "workflows": [
     {
       "name": "curly-thunder-dbae-customer-workflow",
