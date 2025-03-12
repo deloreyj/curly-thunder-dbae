@@ -1,4 +1,4 @@
-[![Deploy to Workers](https://deploy.workers.cloudflare.com/button)](https://dash.staging.cloudflare.com/?to=/:account/workers-and-pages/create/deploy-to-workers&repository=https%3A%2F%2Fgithub.com%2Fdeloreyj%2Fcurly-thunder-dbae)
+[![Deploy to Workers](https://deploy.workers.cloudflare.com/button)](https://localhost:7445/?to=/:account/workers-and-pages/create/deploy-to-workers&repository=https%3A%2F%2Fgithub.com%2Fdeloreyj%2Fcurly-thunder-dbae)
 
 # SaaS Admin Template
 
